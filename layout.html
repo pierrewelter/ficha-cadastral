@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" type="text/css" href="style2.css" media="screen">
+    <title>Cadastro</title>
+</head>
+
+<body>
+
+    <div>
+        <h1 id="titulo">Ficha de Cadastro</h1>
+        <p id="subtitulo">Complete suas informações</p>
+        <br>
+    </div>
+
+    <form>
+        <fieldset class="grupo">
+            <div class="campo">
+                <label for="nome"><strong>Nome</strong></label>
+                <input type="text" name="nome" id="nome" required>
+            </div>
+
+            <div class="campo">
+                <label for="sobrenome"><strong>Sobrenome</strong></label>
+                <input type="text" name="sobrenome" id="sobrenome" required>
+            </div>
+        </fieldset> 
+
+
+        <fieldset class="grupo">
+            <div class="campo">
+                <label for="email"><strong>Email</strong></label>
+                <input type="email" name="email" id="email" required>
+            </div>
+
+            <div class="campo">
+                <label for="Telefone"><strong>Telefone</strong></label>
+                <input type="text" name="Telefone" id="Telefone" required>
+            </div>
+
+            <div class="campo">
+            <label for="Telefone"><strong>Cpf/Cnpj</strong></label>
+            <input type="text" name="Cpf/Cnpj" id="Cpf/Cnpj" required>
+        </div>
+        </fieldset> 
+
+
+        <div class="campo">
+            <label><strong>Qual Genero Você Se Indentifica?</strong></label>
+            <label>
+                <input type="radio" name="devweb" value="frontend" checked>Masculino</label>
+            <label>
+                <input type="radio" name="devweb" value="backend">Feminino</label>
+            <label>
+                <input type="radio" name="devweb" value="fullstack">Outros</label>
+      
+      
+                <fieldset class="grupo">
+                    <div class="campo">
+                        <label for="Cep"><strong>Cep</strong></label>
+                        <input type="text" name="Cep" id="Cep" required>
+                    </div>
+        
+                    <div class="campo">
+                        <label for="Cidade/Bairro/Rua"><strong>Cidade/Bairro/Rua</strong></label>
+                        <input type="text" name="Cidade/Bairro/Rua" id="Cidade/Bairro/Rua" required>
+                    </div>
+        
+                    <div class="campo">
+                    <label for="Numero"><strong>Numero</strong></label>
+                    <input type="text" name="Numero" id="Numero" required>
+                </div>
+                </fieldset> 
+
+                <fieldset class="grupo">
+                    <div class="Data De Nascimento">
+                        <label for="Data De Nascimento"><strong>Data De Nascimento</strong></label>
+                        <input type="text" name="Data De NascimentoCep" id="Data De Nascimento" required>
+                    </div>
+                </div>
+                </fieldset> 
+    </div>
+    <button class="botao" type="submit" onsubmit="">Concluído</button>            
+    </form>
+</body>
+
+</html>
