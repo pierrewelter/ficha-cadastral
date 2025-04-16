@@ -45,7 +45,7 @@ textarea {
 input:focus,
 select:focus,
 textarea:focus {
-    border-color: #3498db;
+    border-color: #ffffff;
     outline: none;
 }
 
@@ -60,7 +60,7 @@ textarea:focus {
 }
 
 button {
-    background-color: #3498db;
+    background-color: #a80101b2;
     color: white;
     padding: 12px 24px;
     border: none;
@@ -90,12 +90,12 @@ button:hover {
 }
 
 .form-section h2 {
-    color: #3498db;
+    color: #a80101b2;
     font-size: 1.2em;
     margin-top: 0;
     margin-bottom: 20px;
     padding-bottom: 10px;
-    border-bottom: 2px solid #3498db;
+    border-bottom: 2px solid #ffffff;
 }
 
 .form-row {
