@@ -15,7 +15,7 @@
     <main>
 
         <div class="container">
-            <h1>Ficha Cadastral</h1>
+            <h1>Ficha De Cadastro</h1>
             <form id="formOrdemServico">
 
                 <div class="form-section">
@@ -35,6 +35,24 @@
                         </div>
                     </div>
                 </div>
+
+                <div class="form-section">
+                    <h2>Segurança</h2>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="nomeCliente">Digite Sua Senha:</label>
+                            <input type="text" id="nomeCliente" required>
+                            
+                        </div>
+                        
+                    </div>
+                    <div class="form-group">
+                        <label for="nomeCliente">Repita Sua Senha:</label>
+                        <input type="text" id="nomeCliente" required>
+                        
+                    </div>
+                </div>
+
 
                 <div class="form-section">
                     <h2>Informações Adicionais</h2>
@@ -61,6 +79,8 @@
                 </div>
 
 
+              
+              
                 <div class="form-section">
                     <h2>Informações Sobre Endereço</h2>
                     <div class="form-row">
@@ -68,14 +88,24 @@
                             <label for="veiculoMarca">Cep:</label>
                             <input type="text" id="veiculoMarca" required>
                         </div>
+                    </div>
+                    
+
                         <div class="form-group">
-                            <label for="veiculoModelo">Cidade / Bairro / Rua:</label>
+                            <label for="veiculoModelo">Cidade:</label>
+                            <input type="text" id="veiculoModelo" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="veiculoModelo">Bairro:</label>
+                            <input type="text" id="veiculoModelo" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="veiculoModelo">Rua:</label>
                             <input type="text" id="veiculoModelo" required>
                         </div>
                         <div class="form-group">
                             <label for="casa">N* Da Casa:</label>
                             <input type="number" id="casa" min="0" max="9999" required>
-                        </div>
                     </div>
                 </div>
 
@@ -86,7 +116,7 @@
                     </div>
                 </div>
 
-                <form action="http://google.com">
+               <form action="http://google.com">
                 <button type="submit">Enviar Ordem</button>
             </form>
         </div>
