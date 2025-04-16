@@ -45,7 +45,7 @@ textarea {
 input:focus,
 select:focus,
 textarea:focus {
-    border-color: #ffffff;
+    border-color: #ff0000;
     outline: none;
 }
 
